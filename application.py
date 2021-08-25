@@ -104,9 +104,9 @@ def option_two():
       else:
         print ("I made this simple for you, pick one of the three options please")
         
-#if __name__ == "__main__":
-user_name = input("I like to keep it personal, what's your name?" )
-clean_data()
-balance_teams()
-Panthers, Bandits, Warriors = balance_teams()
-welcome_screen()
+if __name__ == "__main__":
+  user_name = input("I like to keep it personal, what's your name?" )
+  clean_data()
+  balance_teams()
+  Panthers, Bandits, Warriors = balance_teams()
+  welcome_screen()
